@@ -98,6 +98,10 @@ export default class MyName extends Vue {
         //     ]
         // }
     }; //初始化各端口信息
+
+    drowCondition() {
+        
+    }
     mDown(e: any) {
         let oe = e || event;
         oe.stopPropagation();
